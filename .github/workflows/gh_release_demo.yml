@@ -13,7 +13,7 @@ jobs:
         run: echo ${{ github.sha }} > Release.txt
         
       - name: Test
-        run: cat Relase.txt
+        run: cat Release.txt
         
       - name: Release
         uses: softprops/action-gh-release@v1
